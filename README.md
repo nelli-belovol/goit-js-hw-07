@@ -1,2 +1,1 @@
-# goit-js-hw-07
-module-7
+# GoIT JavaScript course homework
