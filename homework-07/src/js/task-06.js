@@ -5,6 +5,7 @@ inputValidation.addEventListener('blur', e => {
     inputValidation.classList.remove('invalid');
     inputValidation.classList.add('valid');
   } else {
-    inputValidation.classList.replace('valid', 'invalid');
+    inputValidation.classList.remove('valid');
+    inputValidation.classList.add('invalid');
   }
 });
