@@ -38,6 +38,7 @@ divRender.addEventListener('click', () => {
 
 function destroyBoxes() {
   divBoxes.innerHTML = '';
+  input.value = '';
 }
 
 divDestroy.addEventListener('click', () => {
