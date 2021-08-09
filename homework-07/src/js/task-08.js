@@ -2,9 +2,7 @@ const divBoxes = document.querySelector('#boxes');
 const input = document.querySelector('[type="number"]');
 const divRender = document.querySelector('[data-action="render"]');
 const divDestroy = document.querySelector('[data-action="destroy"]');
-// console.dir(input);
-// console.log(divRender);
-// console.log(divDestroy);
+
 let quantity = 0;
 let divWidth = 30;
 let divHeigth = 30;
@@ -33,7 +31,6 @@ function createBoxes(amount) {
 
 divRender.addEventListener('click', () => {
   divBoxes.append(...createBoxes(Number(input.value)));
-  console.log(divBoxes);
 });
 
 function destroyBoxes() {
